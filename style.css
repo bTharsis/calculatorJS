@@ -1,0 +1,145 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(226, 231, 235); */
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator-container {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    /*     grosor tipo color */
+    border: 0 solid black;
+    border-radius: 3.5%;
+}
+
+#calculator-display-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 35px 10px 10px 10px;
+    width: 85%;
+    height: 12%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#calculator-buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 1.5px;
+    height: 65%;
+    width: 85%;
+    background-color: rgb(226, 24, 24);
+}
+
+.calculator-button {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(222, 222, 220);
+    border-radius: 10px;
+}
+
+.btn {
+    height: 100%;
+    width: 100%;
+}
+
+/* Grid-area: row-star, col-star, row-end, col-end */
+
+#c {
+    grid-area: 1/3/3/5;
+}
+
+#del {
+    grid-area: 1/2/3/3;
+}
+
+#divi {
+    grid-area: 3/1/5/2;
+}
+
+#multi {
+    grid-area: 3/2/5/3;
+}
+
+#sub {
+    grid-area: 3/3/5/4;
+}
+
+#add {
+    grid-area: 3/4/5/5;
+}
+
+#equals {
+    grid-area: 5/4/13/5;
+}
+
+#point {
+    grid-area: 11/3/13/4;
+}
+
+#square {
+    grid-area: 1/1/3/2;
+}
+
+#toggle {
+    grid-area: 11/1/13/2;
+}
+
+#zero {
+    grid-area: 11/2/13/3;
+}
+
+#one {
+    grid-area: 9/1/11/2;
+}
+
+#two {
+    grid-area: 9/2/11/3;
+}
+
+#three {
+    grid-area: 9/3/11/4;
+}
+
+#four {
+    grid-area: 7/1/9/2;
+}
+
+#five {
+    grid-area: 7/2/9/3;
+}
+
+#six {
+    grid-area: 7/3/9/4;
+}
+
+#seven {
+    grid-area: 5/1/7/2;
+}
+
+#eight {
+    grid-area: 5/2/7/3;
+}
+
+#nine {
+    grid-area: 5/3/7/4;
+}
