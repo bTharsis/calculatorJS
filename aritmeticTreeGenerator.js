@@ -1,0 +1,8 @@
+class AritmeticTreeGenerator {
+
+    generateTree()
+    {
+        
+    }
+
+}
