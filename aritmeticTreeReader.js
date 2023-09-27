@@ -1,3 +1,3 @@
 class AritmeticTreeReader {
-    
+    read(aritmeticTree) {}
 }

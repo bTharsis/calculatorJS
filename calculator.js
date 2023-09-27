@@ -1,9 +1,4 @@
 class Calculator {
-    constructor() {
-        this.aritmeticTree = new this.aritmeticTree();
-        this.aritmeticTree.generateTree();
-    }
-
     calculate(expresion) {
         this.aritmeticTree.generateTree(expresion); // Generar
         return this.aritmeticTree.run(); // Recorrer

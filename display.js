@@ -2,6 +2,7 @@ let buttons = document.querySelectorAll(".print");
 let equalsButton = document.querySelector("#equals");
 let cButton = document.querySelector("#c");
 let display = document.querySelector("#calculator-display");
+let calculator = new Calculator();
 
 buttons.forEach((button) => {
     button.addEventListener("click", print);
@@ -14,7 +15,7 @@ function print(event) {
 }
 
 function calculate(object) {
-    console.log("calculando");
+    calculator.calculate(display.textContent);
 }
 
 function clear(event) {
